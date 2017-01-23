@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.6.2
+ENV VERSION=0.6.3
 
 RUN gem install ace-eye --version ${VERSION} --no-format-exec
 
